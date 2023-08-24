@@ -10,7 +10,7 @@ from tools import container
 class Magisk(General):
     id = "magisk delta"
     partition = "system"
-    dl_link = "https://huskydg.github.io/magisk-files/app-debug.apk"
+    dl_link = "https://github.com/Arghyadip-Biswas/magisk-alpha/releases/download/6/Alpha_82903582-alpha.apk"
     dl_file_name = "magisk.apk"
     extract_to = "/tmp/magisk_unpack"
     magisk_dir = os.path.join(partition, "etc", "init", "magisk")
